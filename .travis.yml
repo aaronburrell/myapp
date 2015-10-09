@@ -5,6 +5,6 @@ deploy:
   password:
     secure: no//B4Pbp/IGSGXwux7DTW2tPbLIBd85fdICq8s1T9o0rcdrzI2huJgjiyNJ1bSjvhvVr2Io7pqkPPcXeVa9HI3Y5dIi2CPBD5YC6H9sWDJ1O/0FDRXkGLCscs2A5YOUEDlCTt5ERa+laoTUnBvFNSbiy1JJLh/HD3hXSl4+9+HZEFJOfh2uyCYKpXssf2sfXpG4NCqOpi3mZn86pzCoE48dbNP4/XGoWntCTwcllXAmuOccKfYwVnP2GQ8Sst5h7pMlXB0q1vLHv9qa+PHARilfqI3KU8LXZk9LUhuOKJToWPlgbjzd/DxJePBk/XIVJ0j/8of7nHdbucq935bBnIN7XsQNtImDc0rvC8OPXu0+4hxm93N7b8fFnLjIAfIv3ChAPxzjs3C4jCxtY10jVZgzuhxJcqCj8i8K/5IIhD4LE7/Th4DO6z7Y6LoBXbjvFCCELVCj630r0dzEjogpHEmDoAP8+YADVCWbiGs/0RAzPnFYtiXUHHDUOzeHeRdH210vsURaiDP6cF0faH9UvNyBFLCRDLlWI974PCrbVO+FPMgVSvpIN1csuKD2kBZzdWr3F0qmZLcyClmCyTVeu2M7Fp32WXg0dBXTw7G9p/veTrjDG+TJeEaqbSva1MZ3wnydhL6zXCwA0wJpxkusHvUBgPG9QW/Bu8OQOoZxr/8=
   app: myapp
-  domain: s332723148.onlinehome.us
+  domain: thelazzyone
   on:
     repo: aaronburrell/myapp
