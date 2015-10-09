@@ -8,6 +8,6 @@
 		<title>Welcome</title>
 	</head> 
 	<body>
-		<h2>${message}</h2>
+		<h2>Hi! You Made It!</h2>
 	</body>
 </html>
