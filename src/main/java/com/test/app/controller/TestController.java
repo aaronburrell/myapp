@@ -55,7 +55,7 @@ public class TestController {
 	@RequestMapping(value="/showMessage", method = RequestMethod.GET)
 	public String showMessageMethod() {
 		logger.info("This is the showmessage request");
-		return "showmessage";
+		return "showMessage";
 	}
 
 }
