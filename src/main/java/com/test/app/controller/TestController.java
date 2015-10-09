@@ -52,7 +52,7 @@ public class TestController {
 		return "quickstart";
 	}
 
-	@RequestMapping(value="/showmessage", method = RequestMethod.GET)
+	@RequestMapping(value="/showMessage", method = RequestMethod.GET)
 	public String showMessageMethod() {
 		logger.info("This is the showmessage request");
 		return "showmessage";
