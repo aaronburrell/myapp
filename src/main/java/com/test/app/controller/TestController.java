@@ -16,11 +16,11 @@ import com.test.app.service.TestService;
 @Controller
 public class TestController {
 	Logger logger = LoggerFactory.getLogger(this.getClass());
-	
+
 	@Autowired
 	TestService testService;
-    
-	
+
+
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String testGooglePlusAuthMethod() {
 		logger.info("Made it to Test Controller  testGooglePlusAuthMethod() Method...");
@@ -33,7 +33,7 @@ public class TestController {
 	    logger.info("This is the retrun value: " + returnVal);
 		List<TestEntity> values = testService.getAll();
 		logger.info("This is the total size of the table: " +values.size());
-		
+
 		//TestDocument doc = new TestDocument();
 		//doc.setId("526c1566300457439599ae13");
 		//doc.setStringVal("a");
@@ -45,11 +45,17 @@ public class TestController {
 		//logger.info("This is the total size of the documents: " +values.size());
 		return "index";
 	}
-	
+
 	@RequestMapping(value="/driveapitest", method = RequestMethod.GET)
 	public String testDriveApiMethod() {
 		logger.info("Made it to Test Controller testDriveApiMethod()  Method...");
 		return "quickstart";
+	}
+
+	@RequestMapping(value="/showmessage", method = RequestMethod.GET)
+	public String showMessageMethod() {
+		logger.info("This is the showmessage request");
+		return "showmessage";
 	}
 
 }
