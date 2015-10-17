@@ -8,7 +8,7 @@
 <BODY>
 
 <H1>WebApp JSP Snoop page</H1>
-<img src="${pageContext.servletContext.contextPath}/resources/images/jbosscorp_logo.png">
+<img src="resources/images/jbosscorp_logo.png">
 
 <h2>JVM Memory Monitor</h2>
 
