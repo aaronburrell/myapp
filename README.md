@@ -1,3 +1,6 @@
-The OpenShift `jbossas` cartridge documentation can be found at:
+# OpenShift Testing Application
 
-  http://openshift.github.io/documentation/oo_cartridge_guide.html#jbossas
+> This is a test application for me to try out aspects of OpenShift
+>
+> The OpenShift `jbossas` cartridge documentation can be found at:
+> <http://openshift.github.io/documentation/oo_cartridge_guide.html#jbossas>
